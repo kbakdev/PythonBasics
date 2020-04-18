@@ -1,7 +1,9 @@
-# Autor Sejki
+# Author Sejki
 
 name = 'Sejki'
-index = 0
-index2 = -1
-print(name[index])
-print(name[index2])
+print(name[0])
+print(name[-1])
+
+word = input('Input word: ')
+print(word[0])
+print(word[1])
