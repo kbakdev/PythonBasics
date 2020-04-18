@@ -4,5 +4,8 @@
 
 Dict = {"keyboard":"klawiatura", "mouse":"myszka", "chicken":"kurczak", "drewno":"wood"}
 
-word = input(str("Input word: "))
-print(Dict[word])
+word = input(str("Input word in English: "))
+if word in Dict:
+    print('Word in Polish:',Dict[word])
+else:
+    print("There's no word in dictionary.")
